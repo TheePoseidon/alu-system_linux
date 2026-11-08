@@ -1,1 +1,1 @@
-ALU system Linux
+ALU SYSTEM LINUX
