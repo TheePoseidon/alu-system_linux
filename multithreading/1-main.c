@@ -32,10 +32,3 @@ int main(void)
 
 	return (EXIT_SUCCESS);
 }
-alex@~/multithreading$ gcc -Wall -Wextra -Werror -pedantic -g3 1-main.c 1-tprintf.c -o 1-tprintf -pthread
-alex@~/multithreading$ ./1-tprintf
-[140095003338496] Hello from thread
-[140095011714880] Hello from main thread
-alex@~/multithreading$ ./1-tprintf
-[139794647717632] Hello from thread
-[139794656094016] Hello from main thread

@@ -128,14 +128,3 @@ int main(int ac, char **av)
 
 	return (EXIT_SUCCESS);
 }
-alex@~/multithreading$ cat images/kernel_0.knl
-5
-0.1 0.25 0.5 0.25 0.1
-0.25 0.5 0.85 0.5 0.25
-0.5 0.85 1.0 0.85 0.5
-0.25 0.5 0.85 0.5 0.25
-0.1 0.25 0.5 0.25 0.1
-alex@~/multithreading$ gcc -Wall -Wextra -Werror -pedantic -g3 10-main.c 10-blur_portion.c -o 10-blur_portion
-alex@~/multithreading$ ./10-blur_portion images/car.pbm images/kernel_0.knl
-Image size -> 960 * 540
-Kernel size -> 5

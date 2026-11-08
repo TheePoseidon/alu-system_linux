@@ -22,8 +22,3 @@ int main(void)
 	printf("Should not be printed\n");
 	return (EXIT_SUCCESS);
 }
-alex@~/multithreading$ gcc -Wall -Wextra -Werror -pedantic -g3 0-main.c 0-thread_entry.c -o 0-thread_entry -pthread
-alex@~/multithreading$ ./0-thread_entry
-Holberton School
-Created thread ID -> 139851772159744
-C is fun
